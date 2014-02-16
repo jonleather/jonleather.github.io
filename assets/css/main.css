@@ -90,13 +90,12 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding: 20px 0;
 }
 
 .navbar-inverse {
 	background-color: #5C2607;
-	border-color: white;
+	border-color: #5C2607;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -141,10 +140,10 @@ a:after {
 
 /* +++++ WRAP SECTIONS +++++ */
 
-#ww {
+.ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
+	background-color: #ECDDBE;
 }
 
 
