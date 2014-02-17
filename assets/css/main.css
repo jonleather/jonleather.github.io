@@ -163,6 +163,10 @@ a:after {
 	padding-bottom: 20px;
 }
 
+#footer .cs-link a {
+	color: gray;	
+}
+
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
@@ -260,11 +264,11 @@ div.process .col-sm-3 {
 	margin: 50px 0 100px;	
 }
 
-.h1p h1{
-	font-size: 40px;
-	line-height: 
-}
-
 .h1p p {
 	font-size: 28px;
+}
+
+.cs-wrapper {
+	margin-top: 50px;	
+	margin-bottom: 50px;	
 }
