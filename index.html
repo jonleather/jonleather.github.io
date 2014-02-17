@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <!-- +++++ Welcome Section +++++ -->
-<div id="ww">
+<div id="ww" class="hide">
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 centered">
@@ -46,7 +46,7 @@ categories: jekyll update
 <div class="container pt">
 	<div class="row mt">
 		<div class="col-sm-6 col-sm-offset-3 centered">
-			<h3>Stuff list</h3>
+			<h1>STUFF LIST</h1>
 			<hr>
 			<p>New stuff will comming out in Mar.</p>
 		</div>
@@ -90,4 +90,24 @@ categories: jekyll update
 		</div>
 	</div><!-- /row -->
 </div><!-- /container -->
+	
+	<script>
+var imgArray = ['/assets/img/bg/1.jpg', '/assets/img/bg/3.jpg'];
+                 
+var nextBG = "url(" + imgArray[Math.floor(Math.random() * imgArray.length)] + ")";
+$('.section-divider').css("background-image", nextBG);              
+
+/*
+setInterval(function(){
+    nextBG = "url(" + imgArray[seq] + ")";
+    $('.section-divider').fadeOut(3000, function() { 
+        $(this).css("background-image", nextBG).fadeIn(500); })   
+    //$('.section-divider').css("background-image", nextBG)
+    seq++;
+    if(seq == 3) {
+    	seq = 0;
+		}
+}, 30000); // 3 second interval
+*/
+</script>
 	
