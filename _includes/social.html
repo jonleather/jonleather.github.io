@@ -15,7 +15,13 @@
 //	  
 //  });
 (function(d, s, id) {
+  console.info(d);
+  console.info(s);
+  console.info(id);
   var js, fjs = d.getElementsByTagName(s)[0];
+  console.info(js);
+  console.info(fjs);
+  console.info(d.getElementById(id));
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=237803403073870";
